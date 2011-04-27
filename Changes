@@ -1,4 +1,7 @@
 Revision history for Perl extension Rhetoric::Theme::Sandstone
 
-0.01    Tue Apr 26 03:10:43 2011
-        - original version
+0.02 Wed Apr 27 15:19:28 PDT 2011
+  - added a form for creating posts (temporary)
+
+0.01 Tue Apr 26 03:10:43 2011
+  - original version
