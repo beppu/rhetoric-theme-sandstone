@@ -25,6 +25,7 @@ share/theme/SandStone/images/img01.jpg
 share/theme/SandStone/index.html
 share/theme/SandStone/layout.html
 share/theme/SandStone/license.txt
+share/theme/SandStone/new_post.html
 share/theme/SandStone/post.html
 t/00_compile.t
 xt/01_podspell.t
