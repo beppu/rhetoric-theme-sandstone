@@ -16,7 +16,7 @@ Description: A two-column fixed-width template suitable for small websites.
 <title>[% title %][% IF post; " - " _ post.title; END %]</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="/theme/SandStone/default.css" rel="stylesheet" type="text/css" />
+<link href="[% relocated %]/theme/SandStone/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="wrapper">
@@ -35,7 +35,7 @@ Description: A two-column fixed-width template suitable for small websites.
     [% END %]
     </ul>
   </div>
-  <div id="splash"><img src="/theme/SandStone/images/img01.jpg" width="940" height="410" alt="" /></div>
+  <div id="splash"><img src="[% relocated %]/theme/SandStone/images/img01.jpg" width="940" height="410" alt="" /></div>
   <!-- end div#menu -->
   <div id="page">
     <div id="page-bgtop">
@@ -45,11 +45,11 @@ Description: A two-column fixed-width template suitable for small websites.
       <!-- end div#content -->
       <div id="sidebar">
         <ul>
-        [% FOREACH widget IN widgets.sidebar %]                                                                                                                                                                
-          <li>               
-          [% widget %]       
-          </li>              
-        [% END %]            
+        [% FOREACH widget IN widgets.sidebar %]
+          <li>
+          [% widget %]
+          </li>
+        [% END %]
         </ul>
       </div>
       <!-- end div#sidebar -->

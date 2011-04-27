@@ -1,10 +1,8 @@
         [% FOREACH post = posts %]
         <div class="post">
           <h2 class="title"><a href="[% R('Post', post.year, post.month, post.slug) %]">[% post.title %]</a></h2>
-          <p class="byline">Posted by [% post.author %]</p>
-          <!--
-          <p class="meta"><span class="date">[% post.posted_on.strftime(time_format) %]</span></p>
-          -->
+          <p class="byline">Posted by <a href="#">[% post.author %]</a></p>
+          <p class="date">[% post.posted_on.strftime(time_format) %]</p>
           <div class="entry">
             [% post.body %]
           </div>

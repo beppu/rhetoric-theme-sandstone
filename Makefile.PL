@@ -3,7 +3,7 @@ name 'Rhetoric-Theme-SandStone';
 all_from 'lib/Rhetoric/Theme/SandStone.pm';
 
 # requires '';
-requires 'Squatting::View'            => 0.80;
+requires 'Squatting'                  => 0.80;
 requires 'Method::Signatures::Simple' => 0;
 requires 'Template'                   => 0;
 

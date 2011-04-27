@@ -264,6 +264,12 @@ a:hover {
 	color: #FFFFFF;
 }
 
+.post .date {
+	padding: 0 0 0 15px;
+	margin: 0;
+	color: #707070;
+}
+
 .post .entry {
 	padding: 20px 0px;
 }
@@ -291,15 +297,15 @@ a:hover {
 /* Pager */
 
 .pager {
-        margin: 4em 0 0 0;
+	margin: 4em 0 0 0;
 }
 
 .pager .previous {
-        float: left;
+	float: left;
 }
 
 .pager .next {
-        float: right;
+	float: right;
 }
 
 /* Sidebar */
