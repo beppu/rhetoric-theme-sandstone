@@ -1,5 +1,8 @@
 Revision history for Perl extension Rhetoric::Theme::Sandstone
 
+0.03 Wed Apr 27 17:13:19 PDT 2011
+  - comment formatting
+
 0.02 Wed Apr 27 15:19:28 PDT 2011
   - added a form for creating posts (temporary)
 
