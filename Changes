@@ -1,5 +1,8 @@
 Revision history for Perl extension Rhetoric::Theme::Sandstone
 
+0.04 Wed Apr 27 17:21:29 PDT 2011
+  - case insensitive filesystems deceived me
+
 0.03 Wed Apr 27 17:13:19 PDT 2011
   - comment formatting
 
