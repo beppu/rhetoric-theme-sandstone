@@ -3,9 +3,10 @@ name 'Rhetoric-Theme-SandStone';
 all_from 'lib/Rhetoric/Theme/SandStone.pm';
 
 # requires '';
-requires 'Squatting'                  => 0.80;
+requires 'Squatting'                  => '0.81';
 requires 'Method::Signatures::Simple' => 0;
 requires 'Template'                   => 0;
+requires 'Rhetoric'                   => '0.06';
 
 tests 't/*.t';
 author_tests 'xt';
