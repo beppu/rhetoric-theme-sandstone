@@ -1,7 +1,7 @@
 package Rhetoric::Theme::SandStone;
 use strict;
 use warnings;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 use Squatting::View;
 use Method::Signatures::Simple;
 use Data::Dump 'pp';
