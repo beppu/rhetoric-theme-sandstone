@@ -250,13 +250,14 @@ a:hover {
 }
 
 .post .title {
-	margin: 0px;
+	margin: 5px;
 	padding: 0px 0px 5px 0px;
 	color: #232F01;
 }
 
 .post .title a {
 	padding: 4px 35px 4px 15px;
+	border-radius: 4px;
 	background: #07B6FE;
 	text-decoration: none;
 	font-weight: normal;
@@ -365,6 +366,11 @@ a:hover {
 
 #sidebar a:hover {
 	text-decoration: underline;
+}
+
+/* Comment Form */
+#comment-form h3 {
+	margin: 0.75em 0 0.25em;
 }
 
 /* Submenu */
